@@ -111,10 +111,11 @@ INCLUDEPATH += /home/brycezou/program/jdk1.8.0_131/include
 INCLUDEPATH += /home/brycezou/program/jdk1.8.0_131/include/linux
 LIBS += /home/brycezou/program/jdk1.8.0_131/jre/lib/amd64/server/libjvm.so
 
+SOURCES += model.h
+SOURCES += parser.h
+SOURCES += interface.h
 SOURCES += main.cpp
-SOURCES += parse_string.h
-SOURCES += tts_interface.h
-SOURCES += irf_model.h
+
 
 HEADERS += \
     src/jnirelated.h
